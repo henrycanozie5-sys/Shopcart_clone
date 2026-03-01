@@ -6,15 +6,17 @@ body{
   font-weight: 400;
   color: #222;
   background-color: #f7f7f7;
+  box-sizing: border-box;
 }
 
 .header1{
     background-color: #1F7A4C;
     color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-direction: row;
+    padding: 0px 20px;
 }
 
 .headerp{
@@ -23,4 +25,51 @@ body{
     gap: 20px;
 }
 
+.header2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    gap: 20px;
+    padding: 20px;
+}
+
+.logo{
+    color:#1F7A4C;
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.logo img{
+    width: 55px;
+}
+
+nav{
+    display: flex;
+    gap:50px;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+}
+
+input{
+    background-color: rgb(227, 227, 227);
+    width:300px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.icon_purpose{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon_purpose img{
+    width:40px;
+}
 
